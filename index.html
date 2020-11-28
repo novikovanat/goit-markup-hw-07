@@ -7,7 +7,7 @@
     <title>WebStudio</title>
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
-    <link rel="stylesheet" href="./css/styles.css"/>
+    <link rel="stylesheet" href="./css/main.min.css"/>
 </head>
 
 <body>
@@ -30,14 +30,14 @@
         <ul class="header-contacts">
             <li>
                 <a href="mailto:info@devstudio.com" class="mail link">
-                    <svg class="icon-envelope">
+                    <svg class="icon-header">
                         <use href="./images/sprite-main.svg#icon-envelope"></use>
                     </svg>
                     info@devstudio.com</a>
             </li>
             <li>
                 <a href="tel:+380961111111" class="link phone">
-                    <svg class="icon-smartphone">
+                    <svg class="icon-header">
                         <use href="./images/sprite-main.svg#icon-smartphone"></use>
                     </svg>
                     +38 096 111 11 11</a>
@@ -50,7 +50,7 @@
         <div class="main-section">
             <div class="hero">
                 <h1 class="section-title">Эффективные решения для вашего бизнеса</h1>
-                <button class="order-button" type="button" data-modal-open>Заказать услугу</button>
+                <button class="common-button" type="button" data-modal-open>Заказать услугу</button>
             </div>
         </div>
     </section>
@@ -373,7 +373,7 @@
                 <b class="footer-media-title">Подпишитесь на рассылку</b>
                 <form>
                     <input name=email class="email-subscribe" type="email" placeholder="E-mail" required>
-                    <button class="order-button" type="submit">Подписаться
+                    <button class="common-button" type="submit">Подписаться
                         <svg class="sent-icon" width="24" height="24">
                             <use href="./images/sprite-main.svg#icon-send"></use>
                         </svg>
@@ -382,7 +382,7 @@
             </section>
         </div>
 
-    </div> Бштзге
+    </div>
 </footer>
 <div class="backdrop is-hidden" data-modal>
     <div class="modal">
@@ -420,7 +420,7 @@
                 </svg>
                 Соглашаюсь с рассылкой и принимаю <a class="conditions-link" href="#">Условия договора</a>
             </label>
-            <button class="order-button" type="submit">Отправить</button>
+            <button class="common-button" type="submit">Отправить</button>
         </form>
     </div>
 </div>
