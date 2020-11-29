@@ -29,11 +29,11 @@
 }
 
 .navigation-link {
-  color: var(--black);
+  color: getColor("black");
 }
 
 .navigation-menu-item .current {
-  color: var(--accent-color);
+  color: getColor("accent-color");
 }
 
 .current::after {
@@ -61,9 +61,7 @@
   fill: getColor("icon-color");
   margin-right: 10px;
   vertical-align: text-bottom;
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  @include transition(fill);
 
   .link:hover &,
   .link:focus &,
