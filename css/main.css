@@ -273,19 +273,19 @@ address {
 }
 
 .attention::before {
-  background-image: url(../../images/icons/antenna.svg);
+  background-image: url(../images/icons/antenna.svg);
 }
 
 .punctuality::before {
-  background-image: url(../../images/icons/clock.svg);
+  background-image: url(../images/icons/clock.svg);
 }
 
 .planning::before {
-  background-image: url(../../images/icons/diagram.svg);
+  background-image: url(../images/icons/diagram.svg);
 }
 
 .technology::before {
-  background-image: url(../../images/icons/astronaut.svg);
+  background-image: url(../imagesmages/icons/astronaut.svg);
 }
 
 .gallery {
