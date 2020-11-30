@@ -9,8 +9,7 @@
 
 
   .clients-link:hover &,
-  .clients-link:focus &
-  {
+  .clients-link:focus & {
     fill: getColor("accent-color");
 
   }
@@ -27,10 +26,11 @@
   @include transition(border-color);
 
 
-&:hover,
-&:focus {
-  border-color: getColor("accent-color");
-}}
+  &:hover,
+  &:focus {
+    border-color: getColor("accent-color");
+  }
+}
 
 .icon-block:not(:last-child) {
   margin-right: 30px;

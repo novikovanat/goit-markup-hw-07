@@ -173,13 +173,12 @@ address {
   margin-top: 28px;
 }
 
-.header-contacts li + li {
-  margin-left: 50px;
-}
-
 .header-contacts {
   display: flex;
   margin-left: auto;
+}
+.header-contacts li + li {
+  margin-left: 50px;
 }
 
 .icon-header {
