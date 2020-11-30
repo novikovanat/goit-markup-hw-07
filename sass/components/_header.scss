@@ -32,9 +32,13 @@
   color: getColor("black");
 }
 
-.navigation-menu-item .current {
+.navigation-menu-item {
+  &:not(:first-child) {
+    margin-left: 50px;
+  }
+  .current {
   color: getColor("accent-color");
-}
+}}
 
 .current::after {
   content: "";

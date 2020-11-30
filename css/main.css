@@ -151,14 +151,13 @@ address {
   margin-bottom: 0;
 }
 
-.navigation-menu-item:not(:first-child) {
-  margin-left: 50px;
-}
-
 .navigation-link {
   color: #212121;
 }
 
+.navigation-menu-item:not(:first-child) {
+  margin-left: 50px;
+}
 .navigation-menu-item .current {
   color: #2196f3;
 }
